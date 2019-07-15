@@ -1,0 +1,8 @@
+.landing {
+	height: 92vh;
+	background: url("./assets/landing.jpg") no-repeat center;
+}
+
+.cover {
+	background: rgba(0, 0, 0, 0.7);
+}
