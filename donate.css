@@ -1,20 +1,31 @@
-.landing {
-	height: 24vh;
-	
+.form-control{
+	margin: 10px 0;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0;
+	border-bottom: 1px solid #495057;
+}
+
+.btn-group {
+	margin: 10px 0;
+}
+
+.radio {
+	color: #606a73;
 }
 
 .donate-main {
-	background: url("./assets/donate.jpg") no-repeat center;
-	background-size: cover;
 	padding: 10%;
-	text-shadow: 2px 1px #333333;
+	text-shadow: 1px 1px #666666;
 }
 
 .donate-blue {
-	background: #d4c7d0;
+	height: 92vh;
+	background: url("./assets/donate.jpg") center no-repeat;
+	background-size: auto;
 }
 
 .donate-form {
+	padding: 5%;
 }
 
 .font-body {
@@ -26,5 +37,5 @@
 }
 
 .cover {
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.8);
 }
